@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-cap = cv2.VideoCapture('pasauncarro.mp4')#puedes cambiar por un video que desee
+cap = cv2.VideoCapture('pasauncarro.mp4')#puedes cambiar por un video que desee pero tienes que ajustar las coordenadas de la linea 33
 
 if not cap.isOpened():
     print("Error: Could not open video.")
